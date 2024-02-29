@@ -1,0 +1,1004 @@
+body,
+html {
+    margin: 0;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-color: #000;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.main-hero-sec {
+    background-image: url(../images/bg-1.png);
+    min-height: 120vh;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: 100%;
+    padding-bottom: 20vh;
+}
+
+.navbar {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.nav-link {
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #EBEBF5;
+    font-family: 'Azeret Mono', monospace;
+    padding-right: 0.85rem !important;
+    padding-left: 0.85rem !important;
+}
+
+.wallet-play {
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 500;
+    font-size: 0.888rem;
+    line-height: 1.1;
+    color: #EBEBF5;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    transition: .3s;
+}
+
+.wallet-play svg {
+    margin-right: 0.75rem;
+}
+.wallet-play:hover svg path{
+    fill: #0a58ca;
+}
+
+.d-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.235rem;
+    isolation: isolate;
+    width: 9.841rem;
+    height: 3.353rem;
+    background: #EBEBF5;
+    color: #000000;
+    font-family: 'Azeret Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.888rem;
+    line-height: 100%;
+    max-width: 100%;
+    transition: .3s;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.d-btn:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+
+.d-btn:after {
+    content: '';
+    width: 23px;
+    height: 18px;
+    background: #000;
+    border: 1px solid white;
+    transform: rotate(-132deg);
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    top: auto;
+    right: -13px;
+    bottom: -12px;
+}
+
+.ayyo-content {
+    padding-left: 1.75rem;
+}
+
+.ayyo-content img {
+    width: 24rem;
+}
+
+.ayyo-content h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 3.6rem;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+}
+
+.ayyo-content p {
+    font-family: 'Azeret Mono';
+    font-weight: 600;
+    font-size: 1.225rem;
+    line-height: 1.3;
+    color: #EBEBF5;
+    margin: 0;
+    padding-right: 10rem;
+    margin-top: 1.5rem;
+}
+
+.e-btn {
+    gap: 1rem;
+    width: 10.841rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.e-btn:hover svg path {
+    fill: #fff !important;
+stroke: #fff !important;
+}
+
+.main-hero-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 6rem;
+}
+
+
+.main-hero-sec .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.hero-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.coming-medal {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.coming-medal h1 {
+    font-family: 'Chakra Petch';
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.coming-medal p {
+    margin: 0;
+    font-family: 'Azeret Mono';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #EBEBF5;
+}
+
+.medal-sec {
+    position: absolute;
+    bottom: calc(23vh - 4rem);
+    right: 0;
+    width: 100%;
+}
+
+.hero-sec-1 {
+    padding: 10rem 0;
+}
+
+.ayyo-content-1 h1 {
+    font-family: 'Chakra Petch';
+    font-weight: 700;
+    font-size: 3.6rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.ayyo-content-1 p {
+    font-family: 'Azeret Mono';
+    font-weight: 500;
+    font-size: 1.45rem;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 46rem;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.unique1 {
+    text-align: start;
+    padding-top: 6rem;
+}
+
+.unique1 h4 {
+    font-family: 'Azeret Mono';
+    font-weight: 700;
+    font-size: 3.35rem;
+    color: #FFFFFF;
+}
+
+.unique1 p {
+    font-family: 'Azeret Mono';
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.conquer-content h1 {
+    font-family: 'Chakra Petch';
+    font-weight: 700;
+    font-size: 3.35rem;
+    color: #FFFFFF;
+}
+
+.conquer-content p {
+    font-family: 'Azeret Mono';
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    max-width: 33rem;
+    padding-top: 2rem;
+}
+
+.balance-row {
+    margin-top: 8rem;
+}
+
+.hero-sec-2 {
+    padding: 3rem 0;
+}
+
+.ayyo-content-2 h1 {
+    font-size: 3.5rem;
+}
+
+.ayyo-content-2 p {
+    font-size: 1.36rem;
+}
+
+.hero-sec-3 {
+    padding: 14rem 0;
+}
+.clip-shape{
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 93% 100%, 0 100%, 0 50%);
+}
+.developer-kit {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    width: 22rem;
+    height: 18rem;
+    border: 1px solid #fff;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.developer-kit h4 {
+    font-family: 'Chakra Petch';
+    font-weight: 600;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.developer-kit p {
+    font-family: 'Azeret Mono';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #FFFFFF;
+}
+
+.tech-ayyo {
+    width: 72rem;
+    margin: auto;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.developer-kit::after {
+    content: '';
+    width: 14px;
+    height: 10px;
+    background: #000;
+    border: 1px solid white;
+    transform: rotate(-132deg);
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    top: auto;
+    right: -8px;
+    bottom: -7px;
+}
+.clip-shape1 {
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 92% 100%, 0 100%, 0 50%);
+}
+.hero-sec-4 {
+    padding: 2rem 0;
+}
+
+
+.roadmap-main {
+    position: relative;
+}
+
+.roadmap-main {
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.roadmap-line {
+    position: absolute;
+    top: 0;
+    bottom: -1rem;
+    width: 4px;
+    left: calc(50% - 2px);
+    background-color: #fff;
+}
+
+.roadmap-line .circle-img1 {
+    position: absolute;
+    width: 2rem;
+    left: calc(-1rem + 1px);
+    max-width: initial;
+    top: -2rem;
+}
+
+.roadmap-line .circle-img2 {
+    position: absolute;
+    width: 2rem;
+    left: calc(-1rem + 2px);
+    max-width: initial;
+    bottom: -2rem;
+}
+
+.roadmap-left .asset-img {
+    position: absolute;
+    left: 3.75rem;
+    top: calc(50% - 0.35rem);
+    width: 38rem;
+    max-width: initial;
+    background-color: #000;
+}
+
+.space-img {
+    position: absolute;
+    width: 11rem;
+    left: 2rem;
+    max-width: initial;
+    top: 0rem;
+}
+
+.roadmap-box {
+    width: calc(50% - 0rem);
+    position: relative;
+    padding-left: 15rem;
+    padding-right: 3rem;
+}
+
+.roadmap-box .d-btn {
+    margin-left: auto;
+    width: 23rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    position: relative;
+    margin-bottom: 5.25rem;
+    margin-right: 4rem;
+}
+
+.alpha-content {
+    margin-top: -2rem;
+}
+
+.alpha-content h3 {
+    font-family: 'Chakra Petch';
+    font-weight: 600;
+    font-size: 1.65rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-right: 1rem;
+}
+
+.alpha-content p {
+    font-family: 'Azeret Mono';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #FFFFFF;
+}
+
+.circle-img3 {
+    position: absolute;
+    right: -4rem;
+    width: 2rem;
+    top: -5rem;
+    background-color: #000;
+}
+
+.circle-img-3 {
+    position: relative;
+}
+
+.circle-img-3::after {
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    width: 26.5rem;
+    height: 4px;
+    top: -4rem;
+    right: -2rem;
+}
+
+.roadmap-right {
+    margin-left: auto;
+    padding-right: 15rem;
+    padding-left: 3rem;
+    margin-top: -8rem;
+}
+
+.roadmap-right .circle-img-3::after {
+    right: initial;
+    left: -2rem;
+}
+
+.roadmap-right .circle-img3 {
+    left: -4rem;
+    right: initial;
+}
+
+.roadmap-right .space-img {
+    right: 2rem;
+    left: initial;
+}
+
+.hero-sec-5 {
+    padding: 12rem 0;
+}
+
+.cat-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 19rem;
+    height: 27rem;
+    border: 1px solid #fff;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    position: relative;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.cat-content h3 {
+    font-family: 'Chakra Petch';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+
+.cat-content p {
+    font-family: 'Azeret Mono';
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+}
+
+.community-content {
+    width: 62rem;
+    margin: auto;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 3rem;
+}
+
+.discord-img {
+    margin-top: 2rem;
+}
+
+.cat-content::after {
+    content: '';
+    width: 14px;
+    height: 11px;
+    background: #000;
+    border: 1px solid white;
+    transform: rotate(-132deg);
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    top: auto;
+    right: -8px;
+    bottom: -7px;
+}
+
+.hero-sec-6 {
+    padding: 6rem 0;
+    padding-bottom: 10rem;
+}
+
+.ayyo-content-3 h1 {
+    font-size: 3.3rem;
+}
+
+.ayyo-content-3 p {
+    max-width: 35rem;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+.email-listing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.email-listing input {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: calc(35% - 7rem) !important;
+    height: 2.6rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-right: 0;
+    color: #fff;
+    font-family: 'Azeret Mono';
+}
+
+.email-listing input::placeholder {
+    font-family: 'Azeret Mono';
+    font-weight: 600;
+    font-size: 0.625rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #696969;
+    line-height: 110%;
+}
+
+.email-listing .j-btn {
+    margin-top: 0;
+    height: 2.6rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 10rem;
+    background-color: #fff;
+}
+
+.email-listing .j-btn:hover {
+    background-color: transparent;
+}
+
+.footer-sec {
+    padding: 3rem 0;
+}
+
+.footer-play h6 {
+    font-family: 'Azeret Mono';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #EBEBF5;
+    max-width: 15rem;
+    margin-top: 0.5rem;
+}
+
+.footer-play .d-btn {
+    height: 3rem;
+    width: 13rem;
+    margin-top: 1.5rem;
+}
+
+.hr1 {
+    background-color: #fff;
+    height: 2px;
+    opacity: 0.9;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.footer-play-inner p {
+    font-family: 'Chakra Petch';
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 0.04em;
+    color: #EBEBF5;
+    margin-bottom: 1.5rem;
+}
+
+.footer-play-inner li {
+    margin-bottom: 1rem;
+}
+
+.footer-play-inner li a {
+    font-family: 'Azeret Mono';
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.04em;
+    color: #EBEBF5;
+}
+
+.footer-play-inner li a:hover {
+    text-decoration: underline;
+}
+
+.space-content {
+    padding-left: 0;
+}
+
+.space-content img {
+    width: 35rem;
+}
+
+.space-content h1 {
+    font-size: 4.25rem;
+}
+
+.space-content p {
+    padding: 0;
+    max-width: 35rem;
+    font-size: 1.2rem;
+}
+
+.space-content .e-btn {
+    margin: auto;
+    margin-top: 2rem;
+    width: 8.5rem;
+    font-size: 0.7rem;
+    background-color: #fff;
+}
+
+.space-content .e-btn:hover {
+    background-color: transparent;
+}
+
+.space-content .e-btn::after {
+    display: none;
+}
+
+.space-content-1 p {
+    max-width: 44rem;
+    line-height: 1.05;
+}
+
+.triangle-img img {
+    width: 14rem;
+}
+
+.block-img img {
+    width: 30rem;
+}
+
+.block-content p {
+    padding-top: 0;
+    font-size: 1.125rem;
+}
+
+.block-content h1 {
+    margin-bottom: 2rem;
+}
+
+.github-img img {
+    width: 32rem;
+}
+
+.e-hero-sec-6 {
+    padding-top: 20rem;
+    padding-bottom: 15rem;
+}
+
+.email-listing .j-btn::after {
+    display: none;
+}
+
+.roller-content {
+    margin-top: 7rem;
+}
+
+.roller-content .cat-content {
+    width: 18rem;
+    height: 22rem;
+    padding-bottom: 3rem;
+}
+
+.roller-content .cat-content p {
+    font-size: 1rem;
+}
+
+.roller-content .roller-content-inner {
+    position: relative;
+}
+
+.roller-content .roller-content-inner::before {
+    position: absolute;
+    content: '';
+    top: 11rem;
+    left: 18.4rem;
+    background-color: #fff;
+    width: 8.5rem;
+    height: 2px;
+}
+
+.roller-content-inner-1::before {
+    display: none;
+}
+
+.bg-dev-col {
+    padding: 10rem 0;
+}
+
+.bg-dev-col-inner img {
+    width: 100%;
+}
+
+.pilot-content {
+    position: relative;
+    border: 1px solid #fff;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    height: 13rem;
+    padding-left: 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pilot-content::after {
+    content: '';
+    width: 18px;
+    height: 10px;
+    background: #000;
+    border: 1px solid white;
+    transform: rotate(-132deg);
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    top: auto;
+    right: -12px;
+    bottom: -9px;
+}
+.ayyo-content-1.get-hero-sec-inner p a{
+    color: #fff;
+    text-decoration: underline;
+}
+.pilot-content svg {
+    height: 1.75rem;
+    width: 1.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.pilot-content h4 {
+    font-size: 2.125rem;
+}
+
+.pilot-content p {
+    margin-top: 0;
+    font-size: 0.9rem;
+    line-height: 1.1;
+}
+
+.get-hero-sec {
+    padding: 3rem 0;
+}
+
+
+.get-hero-sec-inner p {
+    max-width: 64rem;
+    line-height: 1.1;
+}
+
+.get-hero-sec-inner {
+    margin-top: 6rem;
+}
+
+.hr3 {
+    margin-top: 6rem;
+}
+
+.install-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.install-col-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    width: 28rem;
+    height: 3.5rem;
+    padding: 1rem;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.install-col-inner::after {
+    content: '';
+    width: 23px;
+    height: 18px;
+    background: #000;
+    border: 1px solid white;
+    transform: rotate(-132deg);
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    top: auto;
+    right: -13px;
+    bottom: -12px;
+}
+
+.install-col-inner p {
+    margin: 0;
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.install-col-inner svg {
+    margin-left: 8rem;
+    height: 2rem;
+}
+
+.code-sec-hero {
+    padding: 1rem 0;
+}
+
+.code-sec-hero h1 {
+    font-family: 'Chakra Petch';
+    font-weight: 700;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.question-sec {
+    padding: 12rem 0;
+}
+
+.question-sec h1 {
+    font-family: 'Chakra Petch';
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.accordion-button {
+    background-color: #000 !important;
+    font-family: 'Azeret Mono' !important;
+    font-weight: 500 !important;
+    font-size: 1.125rem !important;
+    color: #FFFFFF !important;
+    padding: 1.25rem 1.5rem !important;
+}
+
+.accordion-body {
+    background-color: #000 !important;
+    font-family: 'Azeret Mono' !important;
+    font-weight: 500 !important;
+    font-size: 1.125rem !important;
+    color: #FFFFFF !important;
+    border-top: 1px solid !important;
+    padding: 2.75rem 1.5rem !important;
+}
+
+.accordion-button span {
+    padding-right: 0.8rem;
+}
+
+.accordion-item {
+    border-radius: 0 !important;
+    margin-top: 1rem;
+    border-top: 1px solid #fff !important;
+}
+
+.accordion-collapse {
+    position: relative;
+}
+
+.accordion-collapse::after {
+    content: '';
+    width: 23px;
+    height: 18px;
+    background: #000;
+    border: 1px solid white;
+    transform: rotate(-132deg);
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    top: auto;
+    right: -13px;
+    bottom: -12px;
+}
+
+.accordion-button::after {
+    background-image: url(../images/down.png);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/down.png);
+    transform: rotate(-180deg);
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-radius: 0 !important;
+}
+
+.tokenimg {
+    width: 20rem !important;
+    margin-top: 4rem;
+}
+
+.launch-col {
+    padding-bottom: 12rem;
+}
+
+.flash-inner h1 {
+    margin-bottom: 4rem;
+    font-size: 3.25rem;
+}
+
+.flash-inner p {
+    max-width: 31rem;
+    font-size: 1.5rem;
+}
+.coming-medal img{
+height: 3.5rem;
+}

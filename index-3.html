@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/responsive-style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+	<title>Devsdk</title>
+</head>
+
+<body>
+
+	<section class="main-hero-sec">
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<svg viewBox="0 0 100 80" width="40" height="40">
+					  <rect width="100" height="20"></rect>
+					  <rect y="30" width="100" height="20"></rect>
+					  <rect y="60" width="100" height="20"></rect>
+					</svg>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Developers</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Community</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">EtherSpace</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">PixelSpace</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">AYYO Token</a>
+						</li>
+					</ul>
+					<div class="d-flex align-items-center gap-4">
+						<a class="wallet-play" href="#"><svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M10.8044 7.21094H16.7651V11.6814H10.8044V7.21094Z" fill="white" />
+								<path
+									d="M15.275 2.74023H4.09877C2.8664 2.74023 1.86353 3.74311 1.86353 4.97548V13.9164C1.86353 15.1488 2.8664 16.1517 4.09877 16.1517H15.275C16.0968 16.1517 16.7651 15.4834 16.7651 14.6615V13.1714H10.8045C9.98267 13.1714 9.31434 12.503 9.31434 11.6812V7.21072C9.31434 6.3889 9.98267 5.72056 10.8045 5.72056H16.7651V4.2304C16.7651 3.40857 16.0968 2.74023 15.275 2.74023Z"
+									fill="white" />
+							</svg>Connect wallet
+						</a>
+						<a href="#">
+							<button class="d-btn clip-shape">Play AYYO</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="hero-sec">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12 d-flex align-items-center justify-content-center text-center">
+						<div class="ayyo-content space-content">
+							<img src="./assets/images/ayyo-hero.png" alt="">
+							<h1>DEVELOPER SDK</h1>
+							<p>Create your own AYYO Artificial <br>Intelligence Bots
+							</p>
+							<a href="#">
+								<button class="d-btn e-btn">LEARN MORE
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="hero-sec-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="ayyo-content-1 space-content-1">
+						<h1>Create your own AYYO AI Bots</h1>
+						<p>AYYO supports player defined A.I. agents and autopilot control systems. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row bg-dev-col">
+				<div class="col-12">
+					<div class="bg-dev-col-inner">
+						<img src="./assets/images/bg-dev.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-start">
+				<div class="col-md-4 col-12">
+					<div class="unique1">
+						<div class="pilot-content">
+							<svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M4.39461 29.6058C5.38344 30.5961 6.79727 31.1188 8.48452 31.1188C10.9524 31.1188 13.9458 30.0167 17.0015 28.1056C20.0559 30.0181 23.0507 31.1188 25.5185 31.1188C27.2044 31.1188 28.6182 30.5961 29.6084 29.6058C31.4062 27.8081 31.6074 24.7708 30.1765 21.0506C29.6694 19.7303 28.9667 18.366 28.1124 17.0003C28.9282 15.7192 29.6194 14.363 30.1765 12.9501C31.6074 9.22992 31.4048 6.19117 29.6084 4.39484C28.6196 3.40459 27.2058 2.88184 25.5185 2.88184C23.0507 2.88184 20.0573 3.984 17.0015 5.89509C13.9472 3.98259 10.9524 2.88184 8.48452 2.88184C6.79869 2.88184 5.38486 3.40459 4.39461 4.39484C2.59686 6.19259 2.39427 9.22992 3.82511 12.9501C4.33369 14.2704 5.03494 15.6347 5.88919 17.0003C5.07345 18.2814 4.38226 19.6377 3.82511 21.0506C2.39427 24.7708 2.59686 27.8081 4.39461 29.6058ZM27.5302 22.0678C28.5063 24.6036 28.5332 26.6733 27.6039 27.6027C27.1505 28.056 26.4493 28.2855 25.5171 28.2855C23.8639 28.2855 21.7686 27.5729 19.5558 26.3305C22.0935 24.3689 24.3706 22.0913 26.3317 19.5532C26.8077 20.4046 27.2143 21.2475 27.5302 22.0678ZM17.0001 24.6744C15.5211 23.617 14.131 22.4406 12.8436 21.1568C11.5535 19.8685 10.3691 18.4786 9.30194 17.0003C11.4349 14.0418 14.0349 11.4499 17.0001 9.32625C18.4791 10.3837 19.8692 11.5601 21.1566 12.8438C22.4467 14.1321 23.6311 15.5221 24.6983 17.0003C22.5653 19.9589 19.9653 22.5507 17.0001 24.6744ZM25.5171 5.71517C26.4479 5.71517 27.1491 5.94467 27.6039 6.398C28.5332 7.32734 28.5077 9.39709 27.5302 11.9329C27.2143 12.7532 26.8077 13.5961 26.3317 14.4475C24.3725 11.9077 22.0952 9.62992 19.5558 7.67017C21.7686 6.42917 23.8639 5.71517 25.5171 5.71517ZM6.47002 11.9329C5.49394 9.39709 5.46702 7.32734 6.39636 6.398C6.84969 5.94467 7.55094 5.71517 8.48311 5.71517C10.1364 5.71517 12.2316 6.42775 14.4444 7.67017C11.905 9.62992 9.62774 11.9077 7.66852 14.4475C7.21031 13.6386 6.80981 12.7983 6.47002 11.9329ZM6.47002 22.0678C6.78594 21.2475 7.19252 20.4046 7.66852 19.5532C9.62774 22.093 11.905 24.3708 14.4444 26.3305C12.2302 27.5729 10.1364 28.2855 8.48311 28.2855C7.55236 28.2855 6.85111 28.056 6.39636 27.6027C5.46702 26.6733 5.49394 24.6036 6.47002 22.0678Z"
+									fill="white" />
+								<path
+									d="M16.9995 20.6465C19.0134 20.6465 20.646 19.0139 20.646 17C20.646 14.9861 19.0134 13.3535 16.9995 13.3535C14.9856 13.3535 13.353 14.9861 13.353 17C13.353 19.0139 14.9856 20.6465 16.9995 20.6465Z"
+									fill="white" />
+							</svg>
+							<h4>Create</h4>
+							<p>Unique Item Types with<br> Unique Iteractions</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-12">
+					<div class="unique1">
+						<div class="pilot-content">
+							<svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M4.39461 29.6058C5.38344 30.5961 6.79727 31.1188 8.48452 31.1188C10.9524 31.1188 13.9458 30.0167 17.0015 28.1056C20.0559 30.0181 23.0507 31.1188 25.5185 31.1188C27.2044 31.1188 28.6182 30.5961 29.6084 29.6058C31.4062 27.8081 31.6074 24.7708 30.1765 21.0506C29.6694 19.7303 28.9667 18.366 28.1124 17.0003C28.9282 15.7192 29.6194 14.363 30.1765 12.9501C31.6074 9.22992 31.4048 6.19117 29.6084 4.39484C28.6196 3.40459 27.2058 2.88184 25.5185 2.88184C23.0507 2.88184 20.0573 3.984 17.0015 5.89509C13.9472 3.98259 10.9524 2.88184 8.48452 2.88184C6.79869 2.88184 5.38486 3.40459 4.39461 4.39484C2.59686 6.19259 2.39427 9.22992 3.82511 12.9501C4.33369 14.2704 5.03494 15.6347 5.88919 17.0003C5.07345 18.2814 4.38226 19.6377 3.82511 21.0506C2.39427 24.7708 2.59686 27.8081 4.39461 29.6058ZM27.5302 22.0678C28.5063 24.6036 28.5332 26.6733 27.6039 27.6027C27.1505 28.056 26.4493 28.2855 25.5171 28.2855C23.8639 28.2855 21.7686 27.5729 19.5558 26.3305C22.0935 24.3689 24.3706 22.0913 26.3317 19.5532C26.8077 20.4046 27.2143 21.2475 27.5302 22.0678ZM17.0001 24.6744C15.5211 23.617 14.131 22.4406 12.8436 21.1568C11.5535 19.8685 10.3691 18.4786 9.30194 17.0003C11.4349 14.0418 14.0349 11.4499 17.0001 9.32625C18.4791 10.3837 19.8692 11.5601 21.1566 12.8438C22.4467 14.1321 23.6311 15.5221 24.6983 17.0003C22.5653 19.9589 19.9653 22.5507 17.0001 24.6744ZM25.5171 5.71517C26.4479 5.71517 27.1491 5.94467 27.6039 6.398C28.5332 7.32734 28.5077 9.39709 27.5302 11.9329C27.2143 12.7532 26.8077 13.5961 26.3317 14.4475C24.3725 11.9077 22.0952 9.62992 19.5558 7.67017C21.7686 6.42917 23.8639 5.71517 25.5171 5.71517ZM6.47002 11.9329C5.49394 9.39709 5.46702 7.32734 6.39636 6.398C6.84969 5.94467 7.55094 5.71517 8.48311 5.71517C10.1364 5.71517 12.2316 6.42775 14.4444 7.67017C11.905 9.62992 9.62774 11.9077 7.66852 14.4475C7.21031 13.6386 6.80981 12.7983 6.47002 11.9329ZM6.47002 22.0678C6.78594 21.2475 7.19252 20.4046 7.66852 19.5532C9.62774 22.093 11.905 24.3708 14.4444 26.3305C12.2302 27.5729 10.1364 28.2855 8.48311 28.2855C7.55236 28.2855 6.85111 28.056 6.39636 27.6027C5.46702 26.6733 5.49394 24.6036 6.47002 22.0678Z"
+									fill="white" />
+								<path
+									d="M16.9995 20.6465C19.0134 20.6465 20.646 19.0139 20.646 17C20.646 14.9861 19.0134 13.3535 16.9995 13.3535C14.9856 13.3535 13.353 14.9861 13.353 17C13.353 19.0139 14.9856 20.6465 16.9995 20.6465Z"
+									fill="white" />
+							</svg>
+							<h4>Deploy</h4>
+							<p>Alien Factions to choose <br>from</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-12">
+					<div class="unique1">
+						<div class="pilot-content">
+							<svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M4.39461 29.6058C5.38344 30.5961 6.79727 31.1188 8.48452 31.1188C10.9524 31.1188 13.9458 30.0167 17.0015 28.1056C20.0559 30.0181 23.0507 31.1188 25.5185 31.1188C27.2044 31.1188 28.6182 30.5961 29.6084 29.6058C31.4062 27.8081 31.6074 24.7708 30.1765 21.0506C29.6694 19.7303 28.9667 18.366 28.1124 17.0003C28.9282 15.7192 29.6194 14.363 30.1765 12.9501C31.6074 9.22992 31.4048 6.19117 29.6084 4.39484C28.6196 3.40459 27.2058 2.88184 25.5185 2.88184C23.0507 2.88184 20.0573 3.984 17.0015 5.89509C13.9472 3.98259 10.9524 2.88184 8.48452 2.88184C6.79869 2.88184 5.38486 3.40459 4.39461 4.39484C2.59686 6.19259 2.39427 9.22992 3.82511 12.9501C4.33369 14.2704 5.03494 15.6347 5.88919 17.0003C5.07345 18.2814 4.38226 19.6377 3.82511 21.0506C2.39427 24.7708 2.59686 27.8081 4.39461 29.6058ZM27.5302 22.0678C28.5063 24.6036 28.5332 26.6733 27.6039 27.6027C27.1505 28.056 26.4493 28.2855 25.5171 28.2855C23.8639 28.2855 21.7686 27.5729 19.5558 26.3305C22.0935 24.3689 24.3706 22.0913 26.3317 19.5532C26.8077 20.4046 27.2143 21.2475 27.5302 22.0678ZM17.0001 24.6744C15.5211 23.617 14.131 22.4406 12.8436 21.1568C11.5535 19.8685 10.3691 18.4786 9.30194 17.0003C11.4349 14.0418 14.0349 11.4499 17.0001 9.32625C18.4791 10.3837 19.8692 11.5601 21.1566 12.8438C22.4467 14.1321 23.6311 15.5221 24.6983 17.0003C22.5653 19.9589 19.9653 22.5507 17.0001 24.6744ZM25.5171 5.71517C26.4479 5.71517 27.1491 5.94467 27.6039 6.398C28.5332 7.32734 28.5077 9.39709 27.5302 11.9329C27.2143 12.7532 26.8077 13.5961 26.3317 14.4475C24.3725 11.9077 22.0952 9.62992 19.5558 7.67017C21.7686 6.42917 23.8639 5.71517 25.5171 5.71517ZM6.47002 11.9329C5.49394 9.39709 5.46702 7.32734 6.39636 6.398C6.84969 5.94467 7.55094 5.71517 8.48311 5.71517C10.1364 5.71517 12.2316 6.42775 14.4444 7.67017C11.905 9.62992 9.62774 11.9077 7.66852 14.4475C7.21031 13.6386 6.80981 12.7983 6.47002 11.9329ZM6.47002 22.0678C6.78594 21.2475 7.19252 20.4046 7.66852 19.5532C9.62774 22.093 11.905 24.3708 14.4444 26.3305C12.2302 27.5729 10.1364 28.2855 8.48311 28.2855C7.55236 28.2855 6.85111 28.056 6.39636 27.6027C5.46702 26.6733 5.49394 24.6036 6.47002 22.0678Z"
+									fill="white" />
+								<path
+									d="M16.9995 20.6465C19.0134 20.6465 20.646 19.0139 20.646 17C20.646 14.9861 19.0134 13.3535 16.9995 13.3535C14.9856 13.3535 13.353 14.9861 13.353 17C13.353 19.0139 14.9856 20.6465 16.9995 20.6465Z"
+									fill="white" />
+							</svg>
+							<h4>Pilot</h4>
+							<p>Unique Item Interactions (more than <br> the total atoms in the universe)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="get-hero-sec">
+		<hr class="hr1 hr2">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="ayyo-content-1 get-hero-sec-inner">
+						<h1>GETTING STARTED</h1>
+						<p>AYYO A.I. Bots act as virtual players in the AYYO game. Bots subscribe and process game state
+							in real-time and respond by sending controller input sequences to the AYYO server.</p>
+						<p>To create an AYYO AI bot, you'll need to understand AYYO game mechanics and be familiar with
+							any modern programming language.</p>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="ayyo-content-1 get-hero-sec-inner">
+						<h1>INSTALL DEVELOPER SDK</h1>
+						<p>AYYO Bot Developer Kits are currently in <a href="#">early access testing</a>.</p>
+						<p>To install the AYYO SDK for JavaScript run: </p>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="install-col">
+						<div class="install-col-inner">
+							<p>npm install @ayyo.ai/sdk</p>
+							<svg width="27" height="28" viewBox="0 0 27 28" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M5.74752 23.8575H21.2135C21.7995 23.8575 22.3615 23.6248 22.7758 23.2104C23.1902 22.7961 23.423 22.2341 23.423 21.6481V9.49625C23.4238 9.35086 23.3959 9.20674 23.341 9.07214C23.286 8.93755 23.205 8.81513 23.1026 8.7119L18.6837 4.29304C18.5805 4.19066 18.4581 4.10965 18.3235 4.05468C18.1889 3.9997 18.0448 3.97183 17.8994 3.97267H5.74752C5.16154 3.97267 4.59956 4.20545 4.18521 4.6198C3.77086 5.03415 3.53809 5.59613 3.53809 6.1821V21.6481C3.53809 22.2341 3.77086 22.7961 4.18521 23.2104C4.59956 23.6248 5.16154 23.8575 5.74752 23.8575ZM16.7947 21.6481H10.1664V16.1245H16.7947V21.6481ZM14.5852 8.39153H12.3758V6.1821H14.5852V8.39153ZM5.74752 6.1821H7.95695V10.601H16.7947V6.1821H17.4464L21.2135 9.94918V21.6481H19.0041V16.1245C19.0041 15.5386 18.7713 14.9766 18.357 14.5622C17.9426 14.1479 17.3806 13.9151 16.7947 13.9151H10.1664C9.5804 13.9151 9.01842 14.1479 8.60407 14.5622C8.18972 14.9766 7.95695 15.5386 7.95695 16.1245V21.6481H5.74752V6.1821Z"
+									fill="white" />
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="hr1 hr2 hr3">
+	</section>
+
+	<section class="code-sec-hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div>
+						<h1>CODE EXAMPLES</h1>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="mt-4">
+						<img src="./assets/images/codeimg.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="question-sec">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div>
+						<h1>Q&A</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-12">
+					<div class="accordion" id="accordionExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingOne">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<span>Q: </span> How many bots am I allowed to run at once?
+								</button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									A: Players are limited to (2) game client connections per IP address.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingTwo">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									<span>Q: </span> Am I allowed to use a Bot to collect Ether or other Power-Ups while
+									I am AFK?
+								</button>
+							</h2>
+							<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									A: Players are limited to (2) game client connections per IP address.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingThree">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									<span>Q: </span> Can my Bot act as an in-game co-pilot while I play?
+								</button>
+							</h2>
+							<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									A: Players are limited to (2) game client connections per IP address.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingFour">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+									<span>Q: </span> Do I need to keep the game open in my browser for my Bot to run?
+								</button>
+							</h2>
+							<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									A: Players are limited to (2) game client connections per IP address.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingFive">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+									<span>Q: </span> Can I write a Bot in any programming language?
+								</button>
+							</h2>
+							<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									A: Players are limited to (2) game client connections per IP address.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="hero-sec-6">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="ayyo-content-1 ayyo-content-2 ayyo-content-3">
+						<h1>AYYO, COMING SOON</h1>
+						<p>Join our email list and be up to date on the latest news in the AYYOverse</p>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="email-listing">
+						<input type="Email" placeholder="spaceape@gmail.com">
+						<a href="#">
+							<button class="d-btn e-btn j-btn">Join email list
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer-sec">
+		<hr class="hr1">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-5">
+					<div class="footer-play">
+						<img src="./assets/images/ayyo-logo-1.png" alt="">
+						<h6>a Play-To-Earn massively multiplayer online video game.
+						</h6>
+						<a href="#">
+							<button class="d-btn">Play AYYO</button>
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-1"></div>
+				<div class="col-6 col-md-2">
+					<div class="footer-play-inner">
+						<p>Gameplay</p>
+						<ul>
+							<li>
+								<a href="#">
+									features
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									our blog
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-6 col-md-2">
+					<div class="footer-play-inner">
+						<p>Help & contact</p>
+						<ul>
+							<li>
+								<a href="#">
+									telegram
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									discord
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									e-mail us
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-6 col-md-2">
+					<div class="footer-play-inner">
+						<p>Site info</p>
+						<ul>
+							<li>
+								<a href="#">
+									RSS Feed
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									terms & privacy
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
